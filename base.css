@@ -1,0 +1,258 @@
+/* ! My reset */
+html,
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fdfdfe;
+    font-family: -apple-system ,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-size: 0.90rem;
+    word-wrap: break-word;
+    letter-spacing: 0 !important;
+    line-height: initial;
+    /* html  */
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    overflow-x: hidden;
+    /*! overflow-y: auto; */
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+    box-sizing: border-box;
+}
+
+/*! minireset.css v0.0.3 / github.com/jgthms/minireset.css */
+
+p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,
+legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+
+/* Typographic */
+
+
+hero{
+  font-weight: 680;
+  font-size: 48px!important;;
+}
+hero.max{
+  font-size: 96px !important;
+}
+
+/* TG RESET */
+
+h1,h2,h3,h4,h5,h6{
+  font-size: 100%!important;
+  font-weight: normal!important;
+  word-wrap: break-word;
+  word-break: initial!important;
+}
+
+h1{
+  font-size: 32px!important;
+}
+h1.max{
+  font-size: 64px!important;
+}
+
+h2{
+  font-size: 24px!important;
+}
+h2.max{
+  font-size: 48px!important;
+}
+
+h3{
+  font-size: 18px!important;
+}
+h3.max{
+  font-size: 36px!important;
+}
+h4,h5,h6,span{
+  font-size: 16px!important;
+  margin: 0;
+}
+p{
+  font-size: 16px!important;
+}
+p .bold{
+  font-weight: bold;
+}
+p.max{
+  font-size: 32px!important;
+}
+
+p.max.bold{
+  font-size: 32px!important;
+  font-weight: bold;
+}
+small{
+  font-size: 14px!important;
+}
+small.max{
+  font-size: 28px!important;
+}
+small .bold{
+  font-weight: bold;
+}
+.bold{
+    font-weight: bold !important;
+}
+sub{
+  font-size: 18px!important;
+}
+
+ul{
+  list-style:none;
+  }
+button,input,select,textarea{
+  margin:0;
+  border: none;
+}
+
+img,embed,iframe,object,audio,video{
+  height:auto;
+  max-width:100%;
+}
+
+iframe{
+  border:0;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+td,th{
+  padding:0;
+  text-align:left;
+}
+a{
+color: #ddd;
+text-decoration: none;
+}
+button{
+  cursor: -webkit-grab;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.ls{
+  letter-spacing:3px
+}
+
+figure img {
+  display: inline-block;
+}
+.image {
+  display: block;
+  position: relative;
+}
+
+.image img {
+  display: block;
+  height: auto;
+  width: 100%;
+  /*! box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.08); */
+}
+.image .size-16x16 {
+  height: 16px;
+  width: 16px;
+}
+
+.image .size-24x24 {
+  height: 24px;
+  width: 24px;
+}
+
+.image .size-32x32 {
+  height: 32px;
+  width: 32px;
+}
+
+.image .size-64x64 {
+  height: 64px;
+  width: 64px;
+}
+
+.image .size-96x96 {
+  height: 96px;
+  width: 96px;
+}
+
+.image .size-116x116 {
+  height: 116px;
+  width: 116px;
+}
+
+.image .size-128x128 {
+  height: 128px;
+  width: 128px;
+}
+.image .size-160x160 {
+  height: 160px;
+  width: 160px;
+}
+.image .size-256x256 {
+  height: 256px;
+  width: 256px;
+}
+
+
+/* Layout  size*/
+
+.container._xs{
+  max-width: 860px!important;
+}
+.container._md{
+  max-width: 1170px!important;
+}
+.container._lg{
+  max-width: 1600px!important;
+}
+
+/* Layout */
+
+.container{
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 90%;
+}
+
+.container,.container-reset {
+ margin-right:auto;
+ margin-left:auto
+}
+@media (min-width:540px) {
+ .container {
+  max-width:492px
+ }
+}
+@media (min-width:768px) {
+ .container {
+  max-width:691px
+ }
+}
+@media (min-width:1084px) {
+ .container {
+  max-width:976px
+ }
+}
+
+
+@media (min-width:1400px) {
+ .container {
+  max-width:1260px
+ }
+}
+.row {
+ margin-left:-10px;
+ margin-right:-10px
+}
+.column{
+margin-top: 10px;
+margin-bottom: 10px;
+}
