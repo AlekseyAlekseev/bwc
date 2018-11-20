@@ -133,6 +133,11 @@ a{
 color: #ddd;
 text-decoration: none;
 }
+a:hover,
+a:focus,
+a:active{
+  text-decoration: none;
+}
 button{
   cursor: -webkit-grab;
   cursor: pointer;
